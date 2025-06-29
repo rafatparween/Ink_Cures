@@ -7,6 +7,9 @@ import StatsSection from "./Components/StatsSection";
 import ImageSlider from "./Components/ImageSlider";
 import PrinterCategories from "./Components/PrinterCategories";
 import Testimonials from "./Components/Testimonials";
+import Blog from "./Components/Blog";
+import FixItSection from "./Components/FixItSection";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return(
@@ -19,6 +22,9 @@ export default function Home() {
       <ImageSlider/>
       <PrinterCategories/>
       <Testimonials/>
+      <Blog/>
+      <FixItSection/>
+      <Footer/>
     </>
 
     
