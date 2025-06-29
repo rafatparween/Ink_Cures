@@ -22,12 +22,12 @@ export default function Navbar() {
 
         {/* Center: Menu items */}
         <div className="hidden md:flex space-x-10 text-[16px] font-semibold text-[#111032]">
-          <a href="#" className="hover:text-blue-700">Home</a>
-          <a href="#" className="hover:text-blue-700">About Us</a>
-          <a href="#" className="hover:text-blue-700">Printer Solutions</a>
-          <a href="#" className="hover:text-blue-700">Blogs</a>
-          <a href="#" className="hover:text-blue-700">Printer / Computer</a>
-          <a href="#" className="hover:text-blue-700">Contact Us</a>
+          <a href="/#" className="hover:text-blue-700">Home</a>
+          <a href="/about" className="hover:text-blue-700">About Us</a>
+          <a href="/printer-solutions" className="hover:text-blue-700">Printer Solutions</a>
+          <a href="/blogs" className="hover:text-blue-700">Blogs</a>
+          <a href="/printer-computer" className="hover:text-blue-700">Printer / Computer</a>
+          <a href="/contact" className="hover:text-blue-700">Contact Us</a>
         </div>
 
         {/* Right: Hamburger */}

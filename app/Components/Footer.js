@@ -37,7 +37,7 @@ export default function Footer() {
         </li>
         <li className="flex items-center gap-2">
           <ArrowRight size={14} />
-          <Link href="/printer-solutions" className="hover:underline">Printer Computer</Link>
+          <Link href="/printer-computer" className="hover:underline">Printer Computer</Link>
         </li>
         <li className="flex items-center gap-2">
           <ArrowRight size={14} />
@@ -53,7 +53,7 @@ export default function Footer() {
   <ul className="space-y-2 text-gray-300 pt-[33px]">
     <li className="flex items-center gap-2">
       <ArrowRight size={14} />
-      <Link href="/" className="hover:text-white">FAQs</Link>
+      <Link href="/printer-solutions" className="hover:text-white">Printer Solurtions</Link>
     </li>
     <li className="flex items-center gap-2">
       <ArrowRight size={14} />
@@ -65,11 +65,11 @@ export default function Footer() {
     </li>
     <li className="flex items-center gap-2">
       <ArrowRight size={14} />
-      <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+      <Link href="Privacy" className="hover:text-white">Privacy Policy</Link>
     </li>
     <li className="flex items-center gap-2">
       <ArrowRight size={14} />
-      <Link href="/terms-of-use" className="hover:text-white">Terms of Use</Link>
+      <Link href="/term" className="hover:text-white">Terms of Use</Link>
     </li>
   </ul>
 </div>
@@ -82,7 +82,7 @@ export default function Footer() {
             <div className="bg-gray-700 p-2 rounded"><Mail size={16} /></div>
             <div>
               <p className="text-gray-300 text-sm font-medium">Work with us</p>
-              <p className="text-gray-400 text-sm">info@inkcures.com</p>
+              <p className="text-gray-400 text-sm">hewlett-printer-solution.online</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
