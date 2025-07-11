@@ -71,10 +71,10 @@ const ContactUs = () => {
               </div>
               <p className="text-gray-600 mb-2">Drop us a message anytime!</p>
               <a
-                href="mailto:support@inkcures.com"
+                href="mailto:support@microhubcare.com"
                 className="text-indigo-600 font-medium hover:underline"
               >
-                support@inkcures.com
+                support@microhubcare.com
               </a>
             </motion.div>
 
@@ -200,7 +200,7 @@ const ContactUs = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             <div className="absolute bottom-4 left-4 bg-white p-3 rounded-lg shadow-md">
               <FiMapPin className="text-red-500 inline mr-2" />
-              <span className="font-medium">InkCures Headquarters</span>
+              <span className="font-medium">Micro Hub Care Headquarters</span>
             </div>
           </div>
         </motion.div>
