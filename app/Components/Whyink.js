@@ -88,12 +88,12 @@ const WhyInkCures = () => {
 
       {/* Right Text */}
       <div className="flex-1">
-        <p className="text-sm text-gray-500 mb-2">Why Ink Cures</p>
+        <p className="text-sm text-gray-500 mb-2">Why Micro Hub Care</p>
         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          Why Thousands Rely <br /> on <span className="text-gray-800">Ink Cures</span>
+          Why Thousands Rely <br /> on <span className="text-gray-800">Micro Hub Care</span>
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-10 max-w-xl">
-          Ink Cures is your go-to guide for solving everyday printer problems on your own. We break down complex issues into simple, easy-to-understand steps. Whether it’s a blank page, paper jam, or slow printing, our guides are built for real users.
+          Micro Hub Care is your go-to guide for solving everyday printer problems on your own. We break down complex issues into simple, easy-to-understand steps. Whether it’s a blank page, paper jam, or slow printing, our guides are built for real users.
         </p>
 
         {/* Stats */}

@@ -53,7 +53,7 @@ const AboutSection = () => {
           variants={itemVariants}
           className="text-sm md:text-base font-semibold text-indigo-600 mb-4 tracking-wider"
         >
-          ABOUT INK CURES
+          ABOUT Micro Hub Care
         </motion.p>
 
         {/* Main Heading with animation */}

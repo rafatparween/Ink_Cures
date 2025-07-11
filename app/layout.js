@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "hewlett-printer-solution.online",
-  description: "hewlett-printer-solution.online",
+  title: "Micro Hub Care",
+  description: "Micro Hub Care",
 };
 
 export default function RootLayout({ children }) {

@@ -97,7 +97,7 @@ export default function PageHeader() {
   };
 
   return (
-    <div className="flex flex-col items-center w-full ">
+    <div className="flex flex-col items-center w-full">
       {/* Navigation Bar - completely unchanged desktop view */}
       <nav className="bg-[#1C8DCEED] text-white w-full">
         <div className="max-w-[90.33%] mx-auto px-4 sm:px-6 lg:px-8">
@@ -106,6 +106,7 @@ export default function PageHeader() {
             <button
               className="md:hidden text-white text-3xl"
               onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
             >
               <FiMenu />
             </button>
@@ -135,7 +136,11 @@ export default function PageHeader() {
 
       {/* Mobile menu - only visible on mobile */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden" onClick={() => setIsOpen(false)} />
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden" 
+          onClick={() => setIsOpen(false)}
+          role="presentation"
+        />
       )}
       
       <div
@@ -147,11 +152,12 @@ export default function PageHeader() {
           <button
             className="text-white text-3xl"
             onClick={() => setIsOpen(false)}
+            aria-label="Close menu"
           >
             ✕
           </button>
         </div>
-        <div className="flex flex-col space-y-6 px-6">
+        <div className="flex flex-col px-6">
           {[
             "Printer Offline",
             "Printer Setup",
@@ -164,7 +170,7 @@ export default function PageHeader() {
             <Link
               key={index}
               href="#"
-              className="block text-lg font-medium"
+              className="block py-4 text-lg font-medium border-b border-[#0C71C3] last:border-0"
               onClick={() => setIsOpen(false)}
             >
               {item}

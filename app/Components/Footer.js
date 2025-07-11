@@ -15,10 +15,10 @@ export default function Footer() {
         {/* Logo & About */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="text-2xl font-bold tracking-tight">💠 INK CURES</div>
+            <div className="text-2xl font-bold tracking-tight">💠 Micro Hub Care</div>
           </div>
           <p className="text-gray-300 text-sm leading-relaxed">
-            At Ink Cures, we simplify the way you handle printer problems. Our platform is built for everyday users who want quick, easy-to-follow solutions without the need for complicated tools or professional help.
+            At Micro Hub Care, we simplify the way you handle printer problems. Our platform is built for everyday users who want quick, easy-to-follow solutions without the need for complicated tools or professional help.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function Footer() {
             <div className="bg-gray-700 p-2 rounded"><Mail size={16} /></div>
             <div>
               <p className="text-gray-300 text-sm font-medium">Work with us</p>
-              <p className="text-gray-400 text-sm">hewlett-printer-solution.online</p>
+              <p className="text-gray-400 text-sm">Micro Hub Care</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
@@ -100,7 +100,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 text-gray-400 text-sm px-6 py-4 flex flex-col md:flex-row justify-between max-w-7xl mx-auto">
-        <p>Ink Cures – Copyright 2025. All rights reserved.</p>
+        <p>Micro Hub Care – Copyright 2025. All rights reserved.</p>
         <div className="flex gap-4">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Use</a>

@@ -11,7 +11,7 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">🔒 Privacy Policy</h2>
                     <p className="text-lg">
-                        At <strong> Ink Cures </strong>, we take your privacy seriously. Our website is designed to offer helpful content without collecting unnecessary personal data.
+                        At <strong>Micro Hub Care </strong>, we take your privacy seriously. Our website is designed to offer helpful content without collecting unnecessary personal data.
                     </p>
                     <p className="text-lg font-medium">What We Collect:</p>
                     <ul className="list-disc list-inside text-lg space-y-2">
@@ -29,7 +29,7 @@ export const PrivacyPolicy = () => {
                     <p className="text-lg">
                         If you have privacy concerns or questions, feel free to contact us at:{" "}
                         <a href="mailto:support@hewlettprinterssolution.com" className="text-blue-500 hover:underline">
-                            support@hewlettprinterssolution.online
+                            support@microhubcare.com
                         </a>
                     </p>
                     <p className="text-lg">
@@ -41,8 +41,8 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">Who We Are</h2>
                     <p className="text-lg">
-                        We at <strong> Ink Cures </strong>, located at the World Wide Web as{" "}
-                        <a href="http://hewlettprintersolution.online" className="text-blue-500 hover:underline">
+                        We at <strong> Micro Hub Care </strong>, located at the World Wide Web as{" "}
+                        <a href="http://support@microhubcare.com" className="text-blue-500 hover:underline">
                             www.hewlettprintersolution.online
                         </a>, value your right to privacy. As a visitor to our website, we understand the importance of your privacy and strive to ensure that your information is protected.
                         We may ask for personal information such as your name, email address, or preferences when you access specific areas of our website or subscribe to our newsletter.
@@ -76,7 +76,7 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">How We Protect Your Personal Information</h2>
                     <p className="text-lg">
-                        At <strong> Ink Cures </strong>, we prioritize your privacy and security. Sensitive information entered on our website, such as credit card details, is encrypted using Secure Socket Layer (SSL) technology.
+                        At <strong>Micro Hub Care  </strong>, we prioritize your privacy and security. Sensitive information entered on our website, such as credit card details, is encrypted using Secure Socket Layer (SSL) technology.
                         We adhere to industry standards to safeguard your personal information during transmission and storage.
                     </p>
                     <p className="text-lg">
@@ -97,13 +97,13 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">Notification of Changes</h2>
                     <p className="text-lg">
-                        If <strong> Ink Cures </strong> decides to make changes to this Privacy Policy, we will post the updates on this page and other relevant areas of our website.
+                        If <strong> Micro Hub Care </strong> decides to make changes to this Privacy Policy, we will post the updates on this page and other relevant areas of our website.
                         This ensures that our users are always aware of what information we collect, how we use it, and under what circumstances it may be disclosed.
                     </p>
                 </section>
 
                 <footer className="text-center text-gray-600">
-                    <p className="text-sm">© 2025  Ink Cures . All Rights Reserved.</p>
+                    <p className="text-sm">© 2025  Micro Hub Care . All Rights Reserved.</p>
                     <p className="text-sm">
                         For any questions or concerns regarding our privacy policy, please contact us at{" "}
                         <a href="mailto:support@hewlettprintersolution.online" className="text-blue-500 hover:underline">
